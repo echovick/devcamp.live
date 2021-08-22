@@ -1,0 +1,75 @@
+.mobile {
+	display: none !important;
+}
+@media only screen and (max-width: 600px) {
+    .desktop {
+		display: none !important;
+	}
+	.mobile {
+		display: block !important;
+	}
+    .mobile-hidden{
+        display: none !important;
+    }
+    .banner-section div{
+        width: 100% !important;
+    }
+    .become-an-instructor div{
+        width: 100% !important;
+    }
+    .courses-section .w-70{
+        width: 100% !important;
+    }
+
+    .become-an-instructor .px-5{
+        padding: 0 !important;
+    }
+
+    .inner{
+        width: 100% !important;
+    }
+
+    .course-testimonial .w-70{
+        width: 100% !important;
+    }
+
+    .txt-xsm {
+        font-size: 10px;
+    }
+    
+    .txt-sm {
+        font-size: 12px;
+    }
+    
+    .txt-md {
+        font-size: 14px;
+    }
+    
+    .txt-lg {
+        font-size: 18px;
+    }
+    
+    .txt-xlg {
+        font-size: 28px;
+    }
+    
+    #accordion .card{
+        width: 100% !important;
+    }
+
+    .badge-box.w-65{
+        width: 100% !important;
+    }
+    .faq .w-70{
+        width: 100% !important;
+    }
+    input{
+        padding: 4% 4% 4% 4% !important;
+    }
+    .button, button {
+        padding: 3% 3% 3% 3% !important;
+    }
+    .badge-box.w-50{
+        width: 100% !important;
+    }
+}
